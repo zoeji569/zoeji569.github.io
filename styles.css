@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.page{
+    display: flex;
+}
+
+.header{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/ezgif.com-gif-maker.gif");
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.header img {
+    display: flex;
+    border-color:#4c4d4d;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 50%;
+     width:40%;
+}
+
+
+.name{
+    padding-top: 15px;
+    display: flex;
+    font-weight: bold;
+    Font: Segoe;
+    font-size: 1.5em;
+}
+.navbar{
+   font-weight: 400px;
+   padding:20px;
+   color: whitesmoke;
+   font-size: 20px;
+   list-style: none;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgb(160, 228, 188);
+}
+
+.welcome-page{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/purple\ sky.gif");
+    background-size:cover;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.welcome-page p{
+    font-size: 30px;
+}
+.welcome-page p1{
+    font-size: 25px;
+}
+.welcome-page p2{
+    font-size: 25px;
+}
+
+.welcome-page img{
+    width:200px;
+    border-radius: 50%;
+}
+
+
+.about-me-page{
+   color:white;
+   padding-left:20px;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   padding-right: 20px;
+   background-image: url("images/galaxy.gif");
+}
+
+.about-me-page p11{
+    font-size: 30px;
+}
+
+.about-me-page p3{
+
+    word-wrap: wrap;
+    font-size:20px;
+}
+.what-i-do-page{
+   
+}
+.what-i-do-page p12{
+    font-size: 30px;
+}
+.what-i-do-page p4,p5{
+    font-size: 20px;
+}
+.what-i-do-page ul{
+    font-size: 18px;
+}
+
+.what-i-do-page img{
+    width: 200px;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+color: white;
+   background-image: url("images/rain-city-puddle-gif.gif");
+   background-size: cover;
+}
+.contact-page p13{
+  font-size: 30px;
+}
+
+.contact-page p6{
+    font-size: 20px;
+}
+
+.contact-page text{
+    width:100%;
+}
+
+.contact-page button{
+    color:white;
+    
+    background-color:rgb(160, 228, 188);
+    
+}
