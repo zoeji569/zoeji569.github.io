@@ -63,9 +63,11 @@ body{
     size: 200%;
 }
 
-#linkedin{
-    padding-right: 20%;
+.social-media{
+    display: flex;
+    justify-content: space-between;
 }
+
 
 #whatido{
     padding-top: 0%;
@@ -246,24 +248,8 @@ a:hover {
     
   }
   
-  /* Tablet Styles 
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .header{
-        width: 20%;
-        position: fixed;
-       
-    }
-    
-    .right-column{
-        display: flex;
-        flex-direction: column;
-        position:absolute;
-        left:20%;
-        top:0;
-        width:80%;
-    }*/
   
-/* Desktop Styles */
+/* Desktop and tablet Styles */
 
 @media only screen and (min-width: 401px) {
     .header{
