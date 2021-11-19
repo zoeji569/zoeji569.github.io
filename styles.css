@@ -4,18 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetiva', serif;
 }
 .page{
     display: flex;
 }
 
 .header{
-    padding-top: 30%;
-    padding-bottom: 30%;
     display: flex;
     width:100%;
-    justify-content: flex-start;
+    height:100%;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     background-image: url("images/ezgif.com-gif-maker.gif");
@@ -25,7 +24,7 @@ body{
 
 .header img {
     display: flex;
-    border-color:#4c4d4d;
+    border-color:#E4D8DC;
     border-width: 5px;
     border-style:solid;
     border-radius: 50%;
@@ -34,7 +33,7 @@ body{
 
 
 .name{
-    padding-top: 15px;
+    padding-top: 0;
     display: flex;
     font-weight: bold;
     Font: Segoe;
@@ -42,13 +41,36 @@ body{
 }
 .navbar{
    font-weight: 400px;
-   padding:20px;
+   padding-top:0;
+   padding-bottom:10%;
    color: whitesmoke;
-   font-size: 20px;
+ 
    list-style: none;
-   justify-content: space-evenly;
+   
    flex-direction: column;
 }
+
+#contact-in-nav{
+    padding-top: 20%;
+}
+
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-top: 60%;
+    size: 200%;
+}
+
+#linkedin{
+    padding-right: 20%;
+}
+
+#whatido{
+    padding-top: 0%;
+}
+
 
 a:link,
 a:visited {
@@ -56,29 +78,34 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  background-color: rgb(160, 228, 188);
+  background-color: #E7D9EA;
 }
 
 .welcome-page{
-    color: white;
+    color: #19456B;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("images/purple\ sky.gif");
-    background-size:cover;
+    background-color: #E7D9EA;
     
     padding-top: 200px;
     padding-bottom: 200px;
 }
 .welcome-page p{
-    font-size: 30px;
+    font-size:40px;
+    font-style: italic;
+    font-weight:700;
+    font-size: 200%;
+    text-decoration: dotted underline;
+    
 }
 .welcome-page p1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .welcome-page p2{
-    font-size: 25px;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .welcome-page img{
@@ -88,28 +115,45 @@ a:hover {
 
 
 .about-me-page{
-   color:white;
-   padding-left:20px;
-   padding-top: 200px;
-   padding-bottom: 200px;
-   padding-right: 20px;
-   background-image: url("images/galaxy.gif");
+   color:#19456B;
+   padding:100px 20px 100px 20px;
+   background-color: #E7D9EA;
+   
 }
 
 .about-me-page p11{
-    font-size: 30px;
+    font-size:40px;
+    font-style: italic;
+    font-weight:700;
+    font-size: 200%;
+    text-decoration: dotted underline;
 }
 
 .about-me-page p3{
+    font-size:18px;
+    font-style: italic;
+    text-align: left;
+}
 
-    word-wrap: wrap;
-    font-size:20px;
+
+.about-me-page img{
+    width: 70%;
+    border-radius: 25%;
+}
+
+#tree{
+    width:2em;
 }
 .what-i-do-page{
-   
+    background-color: #E7D9EA;
+    color:#19456B;
 }
 .what-i-do-page p12{
-    font-size: 30px;
+    font-size:40px;
+    font-style: italic;
+    font-weight:700;
+    font-size: 200%;
+    text-decoration: dotted underline;
 }
 .what-i-do-page p4,p5{
     font-size: 20px;
@@ -122,29 +166,131 @@ a:hover {
     width: 200px;
 }
 
+.i-do-life{
+    padding-top: 10%;
+    font-size: 20px;
+    color:#19456B;
+    background-color: #E7D9EA;
+}
+
+
+.card-group img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 .contact-page {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: right;
     align-items: center;
-color: white;
-   background-image: url("images/rain-city-puddle-gif.gif");
-   background-size: cover;
+    color:#19456B;
+    background-color: #E7D9EA;
+    width: 100%;
+    padding-top: 10%;
+    
+
+
+   
+   
 }
 .contact-page p13{
   font-size: 30px;
+  font-style: italic;
+  font-weight:700;
+  text-decoration: dotted underline;
+  color:#19456B;
 }
 
 .contact-page p6{
     font-size: 20px;
+    color:#19456B;
+    font-style: italic;
+
 }
 
 .contact-page text{
     width:100%;
+    color:#19456B;
 }
 
 .contact-page button{
-    color:white;
+    color:#19456B;
+    background-color:#16C79A;
     
-    background-color:rgb(160, 228, 188);
+}
+
+.footer{
+    background-color: #E7D9EA;
+}
+
+/*Phone and tablet style*/
+@media only screen and (max-width: 400px) {
+    .header{
+        padding-top: 20%;
+    }
+    .social-media{
+        padding-top:20%;
+        padding-bottom:10%;
+    }
+    #welcome-page p{
+        font-size:40px;
+        font-style: italic;
+        font-weight:700;
+        font-size: 200%;
+
+    }
     
+  }
+  
+  /* Tablet Styles 
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .header{
+        width: 20%;
+        position: fixed;
+       
+    }
+    
+    .right-column{
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        left:20%;
+        top:0;
+        width:80%;
+    }*/
+  
+/* Desktop Styles */
+
+@media only screen and (min-width: 401px) {
+    .header{
+        float: left;
+        width: 24%;
+        position: fixed;
+       
+    }
+    
+    .right-column{
+        float: left;
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        left:25%;
+        top:0;
+    }
+   
+   
+    .about-me-page{
+        padding-top:20%;
+    }
+    .navbar{
+        font-size: 120%;
+    }
+    .about-me-page img{
+        width:35%;
+    }
+  
 }
